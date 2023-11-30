@@ -1,0 +1,50 @@
+.navigation{
+    height:80vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+    background-image: url("https://img.freepik.com/free-photo/close-up-hand-holding-plastic-bottle_23-2149181970.jpg");
+}
+.navigate{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(235, 156, 9, 0.2);
+    
+}
+.navigate h1, .navigate p{
+    color:white;
+
+    margin:1rem 2rem 1rem 2rem;
+}
+
+.navigation-links{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.nav-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-title{
+    color: white;
+    font-size:3rem;
+    font-weight: bold;
+    width:40vw;
+    text-align: center;
+    margin-top: 4rem;
+}
+hr{
+    border: 1px inset white;
+    width: 25vw;
+}
+.nav-description{
+    color:white;
+    font-size:1.2rem;
+    width:40vw;
+    text-align: center;
+    margin-top: 1rem;
+}

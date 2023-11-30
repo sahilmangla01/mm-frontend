@@ -1,0 +1,47 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(126, 79, 16);
+    padding:3rem 0 ;
+   
+}
+
+.footer h1, .footer h3{
+    color:white;
+
+}
+.footer p{
+    margin:2rem 0;
+    color: white;
+    font-weight: 100;
+
+}
+.footer-column{
+    width:15vw;
+}
+.footer .icon{
+    color: white;
+    font-size:2.5rem;
+    margin-top:2rem;
+    margin-right: 1.5rem;
+}
+
+.inpsection{
+    display: flex;
+    align-items: center;
+}
+.inpsection input{
+    padding:0.8rem 1rem ;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border:none;
+}
+.inpsection button{
+    border:none;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    font-size:2rem;
+    color: rgb(160, 119, 65);
+    background-color:  rgb(243, 223, 197);
+}

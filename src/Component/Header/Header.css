@@ -4,7 +4,7 @@
     margin:0;
     display:flex;
     justify-content: space-between;
-    background-color: burlywood;
+    background-color: rgb(126, 79, 16);
     color:white;
 
 }
@@ -12,8 +12,26 @@
     display:flex;
    
 }
+.header-right p{
+    margin:0.8rem 0.5rem;
+    display:flex;
+    align-items: center;
+
+}
+.header-right p .icon{
+    color:white;
+    font-size: 1.2rem;
+}
 .header-left-paragraph{
-    margin-left:0.5rem;
+    margin:0.8rem 0.5rem;
+    color: white;
+    display:flex;
+    align-items: center;
+    
+}
+.header-left-paragraph .icon{
+    font-size:1rem;
+    color:white;
 }
 .user-link{
     color:white;
